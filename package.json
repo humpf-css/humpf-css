@@ -1,0 +1,35 @@
+{
+  "name": "humpf-css",
+  "version": "0.1.0",
+  "description": "A bare-bones pragmatic css framework. Sassy, mostly BEMly and generally OOCSSy.",
+  "main": "main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "stylelint 'src/*.scss'",
+    "oldlint": "sass-lint --config .sass-lint.yml 'src/**/*.scss' --verbose --no-exit; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humpf-css/humpf-css.git"
+  },
+  "keywords": [
+    "css",
+    "scss"
+  ],
+  "author": "Svale Fossåskaret <svale@3by5.no> (http://3by5.no)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/humpf-css/humpf-css/issues"
+  },
+  "homepage": "https://github.com/humpf-css/humpf-css",
+  "dependencies": {
+    "sass-mq": "^3.3.2"
+  },
+  "devDependencies": {
+    "stylelint": "^7.9.0",
+    "stylelint-config-sass-guidelines": "^2.0.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-order": "^0.3.0",
+    "stylelint-scss": "^1.4.3"
+  }
+}

@@ -1,0 +1,43 @@
+
+// settings
+@import 'settings/general';
+
+$var: #fff;
+
+.test {
+  position: relative;
+  background-color: $var;
+  line-height: .5px;
+}
+
+.selector {
+  /* Positioning */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* Display & Box Model */
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid #333;
+
+  /* Color */
+  background: #000;
+  color: #fff;
+
+  /* Text */
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: right;
+  cursor: pointer;
+
+  /* Other */
+  overflow: hidden;
+  z-index: 10;
+  box-sizing: border-box;
+}
+

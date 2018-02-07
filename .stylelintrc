@@ -1,0 +1,83 @@
+{
+  "comments": {
+    "properties-order" : "smacss style, see: https://github.com/brigade/scss-lint/blob/master/data/property-sort-orders/smacss.txt"
+  },
+
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-sass-guidelines"
+  ],
+
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ],
+
+  "rules": {
+
+    "block-no-empty": true,
+    "number-leading-zero": "never",
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+
+    "order/declaration-block-properties-alphabetical-order": null,
+    "order/declaration-block-properties-specified-order": [[
+      "display",
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "box-sizing",
+      "flex",
+      "align-content",
+      "align-items",
+      "align-self",
+      "justify-content",
+      "order",
+      "width",
+      "min-width",
+      "max-width",
+      "height",
+      "min-height",
+      "max-height",
+      "margin",
+      "padding",
+      "float",
+      "clear",
+      "columns",
+      "column",
+      "transform",
+      "transition",
+      "border",
+      "outline",
+      "background",
+      "cursor",
+      "color",
+      "font",
+      "letter",
+      "line",
+      "list",
+      "text",
+      "white-space",
+      "word-spacing",
+      "box-shadow",
+      "caption-side",
+      "content",
+      "cursor",
+      "empty-cells",
+      "opacity",
+      "overflow",
+      "quotes",
+      "speak",
+      "table-layout",
+      "vertical-align",
+      "visibility",
+      "z-index"
+    ], { unspecified: "bottomAlphabetical" }]
+  },
+}
+
